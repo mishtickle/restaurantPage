@@ -1,6 +1,15 @@
 .content{
+    position: relative;
     text-align: center;
 }
 img{
     position: relative;
+    
+}
+h1{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 5em;
 }

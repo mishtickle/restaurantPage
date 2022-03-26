@@ -1,4 +1,4 @@
-import myImage from '../img/restaurant.jpg'
+//import myImage from '../img/restaurant.jpg'
 
 export default function theTitle(){
     let body = document.querySelector('body');
@@ -6,11 +6,12 @@ export default function theTitle(){
     let title = document.createElement('h1');
     title.textContent = "BILLY'S DINER";
     content.classList.add('content');
-    const image = document.createElement('img');
-    image.src = myImage;
     body.appendChild(content);
     content.appendChild(title);
-    content.appendChild(image);
+    document.body.style.backgroundImage = "url('../img/restaurant.jpg')";
+    document.body.style.backgroundRepeat = "no-repeat";
+    document.body.style.backgroundSize = "cover";
+   
     
 
 }
