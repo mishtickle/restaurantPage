@@ -7,9 +7,34 @@ img{
     
 }
 h1{
-    position: absolute;
+    /* position: absolute; */
     text-align: center;
     width: 100%;
     color: white;
     font-size: 5em;
+}
+p{
+    font-size: 2em;
+    color: white;
+}
+.tabContainer{
+    width: 70%;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 15%;
+    
+}
+.tabContainer .buttonContainer{
+    height: 15%;
+    
+}
+.tabContainer .buttonContainer button{
+    width: 30%;
+    height: 80px;
+    /* border: none;
+    outline: none;*/
+} 
+button{
+    font-size: 4em;
 }
