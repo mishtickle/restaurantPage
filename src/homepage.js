@@ -7,12 +7,9 @@ export default function theTitle(){
     
     let body = document.querySelector('body');
     let content = document.createElement('div');
-    let title = document.createElement('h1');
-    
-    
-    title.textContent = "";
     content.classList.add('content');
-
+    content.textContent = "";
+    
     let paragraph = document.createElement('p');
     paragraph.textContent = "Simply the best steakhouse in Auckland."
     let paragraph2 = document.createElement('p');
@@ -28,9 +25,7 @@ export default function theTitle(){
     let paragraph7  = document.createElement('p');
     paragraph7.textContent = "Park Road, Auckland"
 
-
     body.appendChild(content);
-    content.appendChild(title);
     content.appendChild(paragraph);
     content.appendChild(paragraph2);
     content.appendChild(paragraph3);
@@ -39,4 +34,3 @@ export default function theTitle(){
     content.appendChild(paragraph6);
     content.appendChild(paragraph7);
 }
-
