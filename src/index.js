@@ -1,5 +1,7 @@
 import _ from 'lodash';
-import theTitle from './homepage.js'
+import theTitle from './homepage.js';
+import theMenu from './menu.js';
+import theContact from './contact.js';
 import './styles.css';
 
 let body = document.querySelector('body');
@@ -36,5 +38,15 @@ buttons.forEach(buttons =>{
             body.removeChild(remove);
             theTitle();
         }
-    })
+        if (buttons.textContent == "Menu"){
+            let remove = document.querySelector('.content');
+            body.removeChild(remove);
+            theMenu();
+        }
+        if (buttons.textContent == "Contact"){
+            let remove = document.querySelector('.content');
+            body.removeChild(remove);
+            theContact();
+        }
+    })  
 })

@@ -1,5 +1,3 @@
-//import myImage from '../img/restaurant.jpg'
-
 export default function theTitle(){
     document.body.style.backgroundImage = "url('../img/restaurant.jpg')";
     document.body.style.backgroundRepeat = "no-repeat";
